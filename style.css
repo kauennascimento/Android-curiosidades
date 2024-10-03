@@ -14,7 +14,6 @@ header {
     background: linear-gradient(to bottom, #2bf8c8, #29855e);
     padding: 90px;
     color: aliceblue;
-    position: relative; 
     text-align: center;
 }
 
@@ -22,11 +21,7 @@ header nav {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    position: absolute;
-    bottom: 20px; 
-    left: 50%; 
-    transform: translateX(-50%);
-    text-align: center; 
+    margin-top: 20px;
 }
 
 header nav a {
@@ -161,8 +156,8 @@ header h1 {
 
     header nav {
         flex-direction: column;
-        position: static;
-        transform: none;
+        align-items: center;
+        margin-top: 10px;
     }
 
     header nav a {

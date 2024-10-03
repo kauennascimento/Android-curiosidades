@@ -15,6 +15,7 @@ header {
     padding: 90px;
     color: aliceblue;
     text-align: center;
+    position: relative;
 }
 
 header nav {
